@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int kilo = 100 , boy = 20 , zaman=0;
+    
+    while(kilo < 150 && boy <30 )
+    {
+        kilo = kilo * 0.10;
+        boy = boy * 0.05;
+        zaman +=1 ; 
+    }
+    printf("%d kadar ay sonra istenilen boy ve kiloya ulasilmis olur. ",zaman);
+    return 0;
+}
